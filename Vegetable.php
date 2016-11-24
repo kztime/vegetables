@@ -81,11 +81,17 @@ class Vegetable
         $this->price = $price;
     }
 
+    /**
+     * @return array
+     */
     public function getOptions()
     {
         return ['color', 'price', 'size'];
     }
 
+    /**
+     * @return array
+     */
     public function get()
     {
         return [
